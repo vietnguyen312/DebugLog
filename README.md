@@ -1,18 +1,22 @@
 # DebugLog
 Library for log message in debug
 
-Download
-Gradle:
+#Gradle:
 compile 'com.github.vietnguyen312:debuglog:master-SNAPSHOT'
 
 
-Usage:
+#Usage:
 
+```java
 AwesomeLog awesome = new AwesomeLog();
 awesome.setText("this is pretty log");
 Debug.log("awesome log", awesome);
+```
 
 -- result:
+
+```java
 FileName - ClassName - Method - AwesomeLog [
-								text = this is pretty log
-								]
+					    text = this is pretty log
+					   ]
+```
