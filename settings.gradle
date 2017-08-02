@@ -1,1 +1,3 @@
-include ':debuglog'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.vietnguyen312'
