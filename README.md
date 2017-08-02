@@ -15,14 +15,14 @@ compile 'com.github.vietnguyen312:debuglog:master-SNAPSHOT'
 ```java
 	AwesomeLog awesome = new AwesomeLog();
 	awesome.setText("this is pretty log");
-	Debug.log("optional", awesome);
+	Debug.log("optional message", awesome);
 ```
 
 
-# **Result:**
+#**Result:**
 
 ```java
-	FileName - ClassName - Method - [optional]  AwesomeLog [
+	FileName - ClassName - Method - [optional message]  AwesomeLog [
 					    text = this is pretty log
 					   ]
 ```
