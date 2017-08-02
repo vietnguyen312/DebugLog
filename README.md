@@ -1,8 +1,13 @@
 # DebugLog
-Library for log message in debug
+Library for logging message in debug
 
-#Gradle:
+# Download
+-----------------------
+
+Gradle:
+```groovy
 compile 'com.github.vietnguyen312:debuglog:master-SNAPSHOT'
+```
 
 
 #Usage:
@@ -10,14 +15,14 @@ compile 'com.github.vietnguyen312:debuglog:master-SNAPSHOT'
 ```java
 	AwesomeLog awesome = new AwesomeLog();
 	awesome.setText("this is pretty log");
-	Debug.log("awesome log", awesome);
+	Debug.log("optional", awesome);
 ```
 
 
-# **result:**
+# **Result:**
 
 ```java
-	FileName - ClassName - Method - AwesomeLog [
+	FileName - ClassName - Method - [optional]  AwesomeLog [
 					    text = this is pretty log
 					   ]
 ```
